@@ -1,8 +1,5 @@
-function showPopup() {
-    alert("Good Choice");
-}
-
-document.getElementById('submit1').addEventListener('submit', function(event) {
-    event.preventDefault();
-showPopup();
+$(document).ready(function () {
+    $('#submit1').click(function () {
+        alert("Excellent Choice");
+    });
 });
