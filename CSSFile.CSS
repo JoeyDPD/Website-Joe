@@ -1,3 +1,25 @@
 #form {
-    background-image: url("IMG_9878.jpeg");
+    background-image:url("IMG_9878.jpeg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+h1, h2, h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+table {
+    border-collapse:collapse;
+    width:100%;
+}
+th {
+    background-color:lightgrey;
+    border:1px solid #ddd;
+    padding:8px;
+    text-align:left;
+}
+td {
+    border:1px solid #ddd;
+    padding:8px;
+    text-align:left;
 }
